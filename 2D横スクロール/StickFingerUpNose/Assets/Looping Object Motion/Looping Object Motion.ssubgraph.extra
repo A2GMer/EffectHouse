@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "72a4aa34-d623-ce66-7901-5709dc113be6",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Looping Object Motion",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "assetPackageID": "7255444182825762817",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7255444182825762817/Looping Object Motion.ssubgraph",
+    "combinedWithNodeLibary": false
+  }
+]

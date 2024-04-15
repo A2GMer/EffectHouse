@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "d56bd9c4-f535-31d3-66f3-2a7479189ca7",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "nose_sculpt_4",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/workspace/Dev/TikTokEffect/2D Face Mask/nose_sculpt_4.glb",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "96606a10-5bd6-4909-53b4-7702570bdba1"
+    ],
+    "meshGUIDs": [
+      "32cbb194-ef65-8ef9-32ae-d7c45ee17d64",
+      "c820e2fc-63c8-4ddf-5e89-6378a0d4dc14"
+    ],
+    "animazGUIDs": []
+  }
+]

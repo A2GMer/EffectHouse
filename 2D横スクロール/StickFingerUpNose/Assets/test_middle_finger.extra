@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "23ef565e-ffc6-0adf-07ec-99b11a79468a",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "test_middle_finger",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

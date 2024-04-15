@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "86a343ea-cf6f-e80c-1780-9b0ff40da330",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Dodge on Collision",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

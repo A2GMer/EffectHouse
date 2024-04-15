@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "55156cb8-9935-8478-4aad-9c065febcea8",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Continuous Transit",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

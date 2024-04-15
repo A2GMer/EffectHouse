@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "0f8f9d96-aa53-6336-73b3-4e7219fb426f",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "nose_sculpt_4",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

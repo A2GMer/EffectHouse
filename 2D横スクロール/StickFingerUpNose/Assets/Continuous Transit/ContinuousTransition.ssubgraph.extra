@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "19027062-b46d-c8ed-8645-e815d8f9f63c",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "ContinuousTransition",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "assetPackageID": "7293732841232318466",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7293732841232318466/ContinuousTransition.ssubgraph",
+    "combinedWithNodeLibary": true,
+    "assetID": "7293732841232318466"
+  }
+]

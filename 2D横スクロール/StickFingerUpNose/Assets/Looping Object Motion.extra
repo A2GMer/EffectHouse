@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "655613a6-9e8c-f192-2292-71627c5ef66a",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Looping Object Motion",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

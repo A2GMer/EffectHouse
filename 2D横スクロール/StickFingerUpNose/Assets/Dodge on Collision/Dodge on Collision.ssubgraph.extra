@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "3b6f3f61-8d70-8d2d-0ac0-3644add7a777",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Dodge on Collision",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "assetPackageID": "7270261243628470273",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7270261243628470273/Dodge on Collision.ssubgraph",
+    "combinedWithNodeLibary": false
+  }
+]

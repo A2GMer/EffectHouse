@@ -1,0 +1,29 @@
+[
+  {
+    "guid": {
+      "a": "fea554f4-2a4c-83ea-79c6-a99d930210bf",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "test_middle_finger",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/workspace/Dev/TikTokEffect/2D Face Mask/test_middle_finger.glb",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "743c8a4a-9017-2979-63d1-acd8b21493b5"
+    ],
+    "meshGUIDs": [
+      "f31a98a2-1584-f2ac-54e4-d0e4c7db79db"
+    ],
+    "animazGUIDs": []
+  }
+]
