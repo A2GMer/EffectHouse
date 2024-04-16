@@ -1,0 +1,97 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> Valentine's-Day8
+guid: {a: 17244238734229877032, b: 4010406495739933599}
+entities:
+  - __class: Entity
+    name: !<str> Valentine's-Day8
+    guid: {a: 18248872494385025804, b: 703332844775072404}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 1535530957892290060, b: 12632604611095563183}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: SORT_ORDER_AND_RENDERQUEUES
+    layer: 10
+  - __class: Entity
+    name: !<str> Valentine's-Day8
+    guid: {a: 5282046938527219419, b: 11601405486405770122}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 14935515507210283406, b: 11137108426150789000}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 5d1096d2-611b-9f3e-08fe-3e00f4a48b12--5d1096d2-611b-9f3e-08fe-3e00f4a48b12.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: !<str> ""
+guid: {a: 16235341739175852693, b: 12141482684420524213}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &3
+name: !<str> ""
+guid: {a: 5855347447611626784, b: 12252394161001141638}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -50}
+sizeDelta: {x: 600, y: 600}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32

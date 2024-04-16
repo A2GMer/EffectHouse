@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "aa47813a-dde3-095f-a45f-a95877bf65c3",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "HeartImg",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

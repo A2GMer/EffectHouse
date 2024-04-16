@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "222d9725-1424-eb17-92a4-0cebe34cf7ad",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Mark_man",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/workspace/Dev/TikTokEffect/2D Face Mask/Mark_man.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

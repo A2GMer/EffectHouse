@@ -1,0 +1,53 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> ""
+guid: {a: 14863128256996475020, b: 11590303751621376152}
+entities:
+  - __class: Entity
+    name: !<str> NeonArrow
+    guid: {a: 1748509099536199750, b: 18053695229411622064}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 7226031422035028931, b: 5356697205179219089}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: ab1f7fe4-b212-20fb-be19-78f419e4010c--ab1f7fe4-b212-20fb-be19-78f419e4010c.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !ScreenTransform &2
+name: !<str> ""
+guid: {a: 15440707305961565227, b: 14053385389148664988}
+enabled: true
+localPosition: {x: 0, y: -6.168299, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -197.3856}
+sizeDelta: {x: 497.9412, y: 885.2289}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32

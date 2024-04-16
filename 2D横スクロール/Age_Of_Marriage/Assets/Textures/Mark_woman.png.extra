@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "24f87279-c2d5-cc99-68cd-ba7d96895048",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Mark_woman",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/workspace/Dev/TikTokEffect/2D Face Mask/Mark_woman.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

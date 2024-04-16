@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "ddbbc52e-c7ad-ee55-9a59-d6055ca2325d",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Neon Arrow",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

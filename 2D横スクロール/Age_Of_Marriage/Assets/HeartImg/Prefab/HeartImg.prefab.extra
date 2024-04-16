@@ -1,0 +1,125 @@
+[
+  {
+    "guid": {
+      "a": "f6fbe725-c3a3-702b-7ac5-71fcc9c69151",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "HeartImg",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "data": [
+      {
+        "guid": {
+          "a": "b8b2573e-c198-11ee-ab4e-9ac27755dec8",
+          "b": ""
+        },
+        "objGuid": "Guid(18248872494385025804, 703332844775072404)",
+        "extraType": "Entity",
+        "name": "2DCamera",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "createdBy": "AddObject",
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "b8b257de-c198-11ee-ab4e-9ac27755dec8",
+          "b": ""
+        },
+        "objGuid": "Guid(16235341739175852693, 12141482684420524213)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "createdBy": "AddObject",
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "b8b258c4-c198-11ee-ab4e-9ac27755dec8",
+          "b": ""
+        },
+        "objGuid": "Guid(5855347447611626784, 12252394161001141638)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "createdBy": "AddObject",
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "b8b2578e-c198-11ee-ab4e-9ac27755dec8",
+          "b": ""
+        },
+        "objGuid": "Guid(1535530957892290060, 12632604611095563183)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "createdBy": "AddObject",
+        "expanded": true,
+        "editable": true,
+        "usage": "2D"
+      },
+      {
+        "guid": {
+          "a": "b8b2582e-c198-11ee-ab4e-9ac27755dec8",
+          "b": ""
+        },
+        "objGuid": "Guid(5282046938527219419, 11601405486405770122)",
+        "extraType": "Entity",
+        "name": "Valentine's-Day8",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "createdBy": "AddObject",
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "b8b25874-c198-11ee-ab4e-9ac27755dec8",
+          "b": ""
+        },
+        "objGuid": "Guid(14935515507210283406, 11137108426150789000)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "createdBy": "AddObject",
+        "expanded": true,
+        "editable": true,
+        "blendMode": "Normal"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]
