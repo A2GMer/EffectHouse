@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "503f5a7e-8e0e-bcbe-0c16-3704545510f1",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "SuccessBG_AnimatedTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

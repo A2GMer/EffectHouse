@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "f4c65ef1-3c6f-d9ec-bf3e-be04d8e28808",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "BulbSocket_Model",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "68928c4a-31f9-c03a-4059-7ca0c86da8bf"
+    ],
+    "meshGUIDs": [
+      "1f6fdfaa-6a0f-42ec-72b0-dd23ac4f87df"
+    ],
+    "animazGUIDs": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "0925f5dd-bd9f-e675-eb17-d18c383d622d",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "SuccessFace_TextureSeq",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

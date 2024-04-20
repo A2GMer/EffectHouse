@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "77736b2e-12ed-fe14-0ce5-ed40b242dcaf",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Wait For Frames",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

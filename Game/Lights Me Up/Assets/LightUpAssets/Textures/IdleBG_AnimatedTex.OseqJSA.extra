@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "5ea27bc2-35e1-4d14-6840-64f71372fa7d",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "IdleBG_AnimatedTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

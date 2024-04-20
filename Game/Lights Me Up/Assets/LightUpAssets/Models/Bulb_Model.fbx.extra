@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "2d52fd8d-615a-912e-8804-ecec4864f7db",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Bulb_Model",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "532b98b3-337d-3f87-02b2-16cab287b064"
+    ],
+    "meshGUIDs": [
+      "d8dc34e5-39d9-3792-b28d-2741259dd153"
+    ],
+    "animazGUIDs": []
+  }
+]

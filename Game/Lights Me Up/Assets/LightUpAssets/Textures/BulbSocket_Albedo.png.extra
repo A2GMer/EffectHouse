@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "30e1336e-7e23-b09b-31fb-87b05e5a7914",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "BulbSocket_Albedo",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

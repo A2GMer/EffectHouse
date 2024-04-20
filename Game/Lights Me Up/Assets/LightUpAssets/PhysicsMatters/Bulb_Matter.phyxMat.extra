@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "2136d213-3ac0-7d13-6ee4-889825b139fc",
+      "b": ""
+    },
+    "extraType": "ResItemPhysicsMaterial",
+    "name": "Bulb_Matter",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "AMGPhysicsMaterial",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "fa6323a6-e308-3690-ae2b-f71d6ae513da",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "IdleBG_TextureSeq",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

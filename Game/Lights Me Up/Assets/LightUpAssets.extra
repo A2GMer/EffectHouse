@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "7a25e0b6-7c5e-6626-9ebf-42e582e2ef21",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "LightUpAssets",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

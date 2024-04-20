@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "3ef93018-a135-cf88-901a-eb232aeee725",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "IdleFace_AnimatedTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "6857ae27-7bc1-3efb-49a2-f8517ef86b35",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "IdleFace_TextureSeq",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

@@ -1,0 +1,1421 @@
+%YAML 1.1
+--- !Scene &1
+name: !<str> ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: !<str> V5
+entities:
+  - __class: Entity
+    name: !<str> "Tip: To customize Light Up "
+    guid: {a: 2973092302848642312, b: 4467677623317492396}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 45}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 669733979919119256, b: 16384461163134311355}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 8001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D Background Effects
+    guid: {a: 6507629600027525836, b: 13961096243112750271}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 42}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 11259464212626616421, b: 12329764682087287174}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Camera
+    guid: {a: 10180214583793075010, b: 13085474825770890632}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 18393534764065644695, b: 16547619468206596491}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 50
+        orthoScale: 22
+        zNear: 0.001000000047497451
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: STRICT_SORT_ORDER
+    layer: 0
+  - __class: Entity
+    name: !<str> General
+    guid: {a: 8235238043598186243, b: 16840308208679013795}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 14792803682663561050, b: 6161520050080348315}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9002
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Environment Light
+    guid: {a: 11406181728386468509, b: 5972158861532600762}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+      - __class: Envmap
+        name: !<str> ""
+        guid: {a: 16737500510660696093, b: 7610174286501797273}
+        enabled: true
+        envmapLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        specularEnvmap: {localId: 1, path: 00000000-0000-0000-0000-000000000800--00000000-0000-0000-0000-000000000800.texture}
+        IBLMode: true
+        intensity: 0.3499999940395355
+        rotation: 0.4000000059604645
+    layer: 0
+  - __class: Entity
+    name: !<str> Ground Plane
+    guid: {a: 234362047369311609, b: 16935048689942497954}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+      - __class: MeshRenderer
+        name: !<str> ""
+        guid: {a: 5858126823791704874, b: 10729296306101266836}
+        enabled: false
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-00000000000c--00000000-0000-0000-0000-00000000000c.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 3046391378356452075, b: 11748104625105163928}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: 0, z: 0}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 823b8943-f5ea-8b81-ca5c-7127eaf8904b}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 8, y: 8, z: 0.1}
+    layer: 0
+  - __class: Entity
+    name: !<str> Bulb Socket Boundry Collider
+    guid: {a: 6216243442899944086, b: 17303233853785080194}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 14}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 7804256157758750316, b: 18098890721512641450}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: -4, z: -1.4}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 3.4, y: 13, z: 0.2}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 14794077370918990333, b: 8857443884171185060}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: -4, z: 1.4}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 3.4, y: 13, z: 0.2}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 8450972593069287029, b: 17204366597753124273}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: -1.5, y: -4, z: 0}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 0.3, y: 13, z: 3.4}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 11259768423355015866, b: 17302731890943227292}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 1.5, y: -4, z: 0}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 0.3, y: 13, z: 3.4}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 16952225539658445934, b: 13656010459795025044}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: -0.3, z: 0}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 2.4, y: 0.2, z: 2.4}
+    layer: 0
+  - __class: Entity
+    name: !<str> Right Boundry Plane
+    guid: {a: 9749924429426459877, b: 15375132797763215240}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+      - __class: MeshRenderer
+        name: !<str> ""
+        guid: {a: 739940854038797276, b: 15430600958423386803}
+        enabled: false
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-00000000000c--00000000-0000-0000-0000-00000000000c.material}
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 16952895443925610700, b: 4730983868286558868}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: 0, z: 0}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 823b8943-f5ea-8b81-ca5c-7127eaf8904b}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 8, y: 8, z: 0.1}
+    layer: 0
+  - __class: Entity
+    name: !<str> Left Boundry Plane
+    guid: {a: 3189163914408214953, b: 9637419004014309547}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 17}
+      - __class: MeshRenderer
+        name: !<str> ""
+        guid: {a: 4489506589471218858, b: 17228309585455874468}
+        enabled: false
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-00000000000c--00000000-0000-0000-0000-00000000000c.material}
+        sortingOrder: 9
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 15441225554632363729, b: 129809289783376518}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: 0, z: 0}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 823b8943-f5ea-8b81-ca5c-7127eaf8904b}
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 8, y: 8, z: 0.1}
+    layer: 0
+  - __class: Entity
+    name: !<str> Bulb Socket Event Detect Collider
+    guid: {a: 5350479932618350887, b: 13466086382880818572}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 6649338594161508327, b: 13137708721127374233}
+        enabled: true
+        path: !<str> js/CapsuleCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: -0.9, z: 0}
+          height: 4
+          isTangible: false
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          radius: 1.2
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+    layer: 0
+  - __class: Entity
+    name: !<str> Bulb Collider
+    guid: {a: 4054924579153253938, b: 325689817621235866}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 21}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 13423696123126711002, b: 11363869908013832075}
+        enabled: true
+        path: !<str> js/RigidBody.js
+        properties:
+          __class: Map
+          angularDamping: 0.1
+          damping: 0.3
+          externalForce: {x: 0, y: 0, z: 0}
+          externalTorque: {x: 0, y: 0, z: 0}
+          freezeX: false
+          freezeY: false
+          freezeZ: false
+          isKinematic: false
+          mass: 1
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 165956327451359976, b: 13978617894164954265}
+        enabled: true
+        path: !<str> js/SphereCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: 7.1, z: 0}
+          fitMesh: true
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          radius: 3.1
+          showCollider: true
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 2759698204585457523, b: 11236001546624357283}
+        enabled: true
+        path: !<str> js/CapsuleCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: 3.4, z: 0}
+          height: 4
+          isTangible: true
+          physicsMaterial: {localId: 1, path: 2136d213-3ac0-7d13-6ee4-889825b139fc}
+          radius: 1.5
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+    layer: 0
+  - __class: Entity
+    name: !<str> Bulb Socket
+    guid: {a: 2396080670343497536, b: 7951915894564902535}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D UI Camera
+    guid: {a: 15226352059368573800, b: 4695352249180346298}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 25}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 17820170413078771560, b: 2582807684606674819}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: STRICT_SORT_ORDER
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D Foreground Effects
+    guid: {a: 3119406454468260901, b: 7687900061552791949}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 26}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 8092057763890534289, b: 15147924151609950855}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9003
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Restart UI
+    guid: {a: 13208227019913295965, b: 11183030490234703244}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 12916926596307420489, b: 6342475591078360452}
+        enabled: true
+        sharedMaterials:
+          - {localId: 0}
+        sortingOrder: 10
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 98631986-a687-244a-6ac0-7bd8cba28dd8--98631986-a687-244a-6ac0-7bd8cba28dd8.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: !<str> Boundries
+    guid: {a: 4485637354403532817, b: 13377426832621188487}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+    layer: 0
+  - __class: Entity
+    name: !<str> Blockers
+    guid: {a: 12557318221108922640, b: 7706689104950702475}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 29}
+    layer: 0
+  - __class: Entity
+    name: !<str> Moth Model Collider
+    guid: {a: 1966963294437146286, b: 2718536985882078887}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 15008092067736367041, b: 4065104046835320456}
+        enabled: true
+        path: !<str> js/BoxCollider.js
+        properties:
+          __class: Map
+          center: {x: 0, y: -1.6, z: -1.8}
+          fitMesh: true
+          isTangible: true
+          rotation: {x: 0, y: 0, z: 0}
+          showCollider: true
+          size: {x: 10, y: 7, z: 2.4}
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D Camera
+    guid: {a: 15583376564366766211, b: 9443528163680201352}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 43}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 8235828408815816480, b: 11495774521198646688}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: STRICT_SORT_ORDER
+    layer: 0
+  - __class: Entity
+    name: !<str> Background
+    guid: {a: 4270029700783786573, b: 2631325096110671788}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 44}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 2399848503771523025, b: 4363453050690318216}
+        enabled: true
+        sharedMaterials:
+          - {localId: 0}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: custom://cd1ca72d-dba7-ad07-a7f2-91c1ed84043b}
+        opacity: 0.300000011920929
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fill
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: !<str> 1. Import your own assets
+    guid: {a: 10036368314854289551, b: 15389961736083656866}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 46}
+    layer: 0
+  - __class: Entity
+    name: !<str> SkeletonAndRenderRoot
+    guid: {a: 10036714147579521143, b: 13374695176295309994}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 48}
+    layer: 0
+  - __class: Entity
+    name: !<str> Bulb_Mesh
+    guid: {a: 16016318994998478034, b: 9364952085532139690}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 49}
+      - __class: MeshRenderer
+        name: !<str> mesh0_renderer
+        guid: {a: 6721259523262596238, b: 2101120165427684270}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 532b98b3-337d-3f87-02b2-16cab287b064--532b98b3-337d-3f87-02b2-16cab287b064.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2d52fd8d-615a-912e-8804-ecec4864f7db--Bulb_Mesh.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> Bulb Model [REPLACE]
+    guid: {a: 5136296549870551791, b: 13108039536258968710}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 47}
+    layer: 0
+  - __class: Entity
+    name: !<str> 2. Replace Bulb Model and Bulb Socket Model
+    guid: {a: 3045368134435087623, b: 15294065663892562872}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 50}
+    layer: 0
+  - __class: Entity
+    name: !<str> 3. Adjust colliders' size to fit your assets
+    guid: {a: 6576113853684870078, b: 5477073827773820289}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 51}
+    layer: 0
+  - __class: Entity
+    name: !<str> 4. Customize parameters in Visual Scripting
+    guid: {a: 18250909695439965272, b: 2934671064596165015}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 52}
+    layer: 0
+  - __class: Entity
+    name: !<str> Arrow Indicator
+    guid: {a: 12989903716381799177, b: 12903087929848834221}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 91}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 16809526697113041204, b: 13683787081535743904}
+        enabled: true
+        sharedMaterials:
+          - {localId: 0}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: custom://e1c2e832-f84e-c663-e9c3-0a79173dbf1d}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: !<str> SkeletonAndRenderRoot
+    guid: {a: 13709355234873740497, b: 15771196479832910212}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 93}
+    layer: 0
+  - __class: Entity
+    name: !<str> BulbSocket_Mesh
+    guid: {a: 13496504194753663568, b: 7333443936904802698}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 94}
+      - __class: MeshRenderer
+        name: !<str> mesh0_renderer
+        guid: {a: 1389604552864559654, b: 7830053056618000029}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 5875b713-bf7f-1b58-4337-282a2a405ba9--5875b713-bf7f-1b58-4337-282a2a405ba9.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: f4c65ef1-3c6f-d9ec-bf3e-be04d8e28808--BulbSocket_Mesh.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> BulbSocket_Model [REPLACE]
+    guid: {a: 9821624915256596754, b: 13828688480659657116}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 92}
+    layer: 0
+  - __class: Entity
+    name: !<str> SkeletonAndRenderRoot
+    guid: {a: 11766913657376306244, b: 13228261944081035657}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 96}
+      - __class: Animator
+        name: !<str> ""
+        guid: {a: 10829981912304148886, b: 11008752074562159237}
+        enabled: true
+        animations:
+          - {localId: 1, path: 41480212-4d54-9d89-dc93-489dfa377c74--Animaz-1_Take 001.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz-1_Take 001: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: !<str> Moth_Model
+    guid: {a: 15224851687959013995, b: 11898877438954203804}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 97}
+    layer: 0
+  - __class: Entity
+    name: !<str> MothBody_Mesh
+    guid: {a: 4415834360810123188, b: 11430585945126705577}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 98}
+      - __class: MeshRenderer
+        name: !<str> mesh0_renderer
+        guid: {a: 10610753803092488663, b: 13585422372640819591}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: bd1176cf-f3d3-aa01-132d-5f2d0002a6c0--bd1176cf-f3d3-aa01-132d-5f2d0002a6c0.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 41480212-4d54-9d89-dc93-489dfa377c74--MothBody_Mesh.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> MothWingR_Mesh
+    guid: {a: 12269983833195265855, b: 13997190477078012048}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 99}
+      - __class: MeshRenderer
+        name: !<str> mesh1_renderer
+        guid: {a: 2612429244189415906, b: 13937503478478023074}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: bd1176cf-f3d3-aa01-132d-5f2d0002a6c0--bd1176cf-f3d3-aa01-132d-5f2d0002a6c0.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 41480212-4d54-9d89-dc93-489dfa377c74--MothWingR_Mesh.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> MothWingL_Mesh
+    guid: {a: 12702849538155634409, b: 6597877685941474967}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 100}
+      - __class: MeshRenderer
+        name: !<str> mesh2_renderer
+        guid: {a: 4416116326283873214, b: 16278548812764542899}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: bd1176cf-f3d3-aa01-132d-5f2d0002a6c0--bd1176cf-f3d3-aa01-132d-5f2d0002a6c0.material}
+        sortingOrder: 6
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 41480212-4d54-9d89-dc93-489dfa377c74--MothWingL_Mesh.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> Moth_Model [REPLACE]
+    guid: {a: 6865504636371059557, b: 14832978845924664708}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 95}
+    layer: 0
+  - __class: Entity
+    name: !<str> Directional Light
+    guid: {a: 7659467619945745332, b: 13147422155881338002}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 101}
+      - __class: DirectionalLight
+        name: !<str> ""
+        guid: {a: 596457635806460435, b: 12608435702459576726}
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 0.75
+        shadowEnable: false
+        shadowEnableNew: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 1
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        selfShadowGradient: 0
+        shadowColor: {x: 0, y: 0, z: 0}
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        lightingLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderMode:
+          __class: LightRenderMode
+          value: AUTO
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+        softShadowType:
+          __class: SoftShadowType
+          value: PCF
+        EVSMExponents: {x: 4, y: 4}
+        contactShadowEnable: false
+        lightUnit:
+          __class: LightUnit
+          value: Lux
+    layer: 0
+  - __class: Entity
+    name: !<str> Moth
+    guid: {a: 1532550610411471479, b: 15058329234138802098}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 102}
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: NONE
+jsScriptSystems:
+  - !<str> js/GraphSystem.js
+  - !<str> js/Main.js
+  - !<str> js/JSAssetSystem.js
+  - !<str> js/PBDSystem.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: Auto
+--- !Transform &8
+name: !<str> ""
+guid: {a: 14145000689903744101, b: 6111037265461598351}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: !<str> ""
+guid: {a: 12629985132416961300, b: 14387677276955654788}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 8}
+  - {localId: 101}
+  - {localId: 11}
+  - {localId: 21}
+  - {localId: 24}
+  - {localId: 29}
+  - {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: !<str> ""
+guid: {a: 2038139312557020282, b: 1886311758165782682}
+enabled: true
+localPosition: {x: 0, y: 30, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071068, x: 0, y: 0.7071068, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: !<str> ""
+guid: {a: 17099036394700681809, b: 18435083139953436576}
+enabled: true
+localPosition: {x: 0, y: -22.6, z: 0}
+localScale: {x: 10, y: 10, z: 1}
+localOrientation: {w: 0.7253743, x: 0.6883546, y: -4.332929e-08, z: -3.880143e-08}
+parent: {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: !<str> ""
+guid: {a: 5137172675579405842, b: 6232428389638646432}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: !<str> ""
+guid: {a: 9457759258501006855, b: 15163563803561319089}
+enabled: true
+localPosition: {x: 16, y: 6, z: 0}
+localScale: {x: 9.999998, y: 9.999998, z: 0.9999998}
+localOrientation: {w: 0.7071067, x: 0, y: -0.7071068, z: 0}
+parent: {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: !<str> ""
+guid: {a: 9389336991082715195, b: 15274850608895751585}
+enabled: true
+localPosition: {x: -16, y: 6, z: 0}
+localScale: {x: 9.999996, y: 9.999998, z: 0.9999997}
+localOrientation: {w: 0.7071067, x: 0, y: -0.7071068, z: 0}
+parent: {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: !<str> ""
+guid: {a: 1676165438676497755, b: 13898165600712642235}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: !<str> ""
+guid: {a: 7948166163874647827, b: 11873531120303150497}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+children:
+  - {localId: 47}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: !<str> ""
+guid: {a: 6289905414995609483, b: 13935400108800853127}
+enabled: true
+localPosition: {x: 0, y: -13, z: 0}
+localScale: {x: 1.2, y: 1.2, z: 1.2}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+children:
+  - {localId: 92}
+  - {localId: 18}
+  - {localId: 14}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: !<str> ""
+guid: {a: 17817226680255558140, b: 4265907922334248891}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 26}
+children:
+  - {localId: 27}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: !<str> ""
+guid: {a: 3621255593220923476, b: 5229017639475497892}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &27
+name: !<str> ""
+guid: {a: 8523835259806331895, b: 11920164116759662760}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 160, y: 160}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !Transform &28
+name: !<str> ""
+guid: {a: 6650538222743725258, b: 7516983420251292063}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+children:
+  - {localId: 13}
+  - {localId: 16}
+  - {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: !<str> ""
+guid: {a: 13710807502134622097, b: 16456433083754404781}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+children:
+  - {localId: 102}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: !<str> ""
+guid: {a: 10755132205116063211, b: 5233569455455938963}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 102}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &42
+name: !<str> ""
+guid: {a: 3479383475500849306, b: 12829684416754965128}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &43
+name: !<str> ""
+guid: {a: 8524351234376929144, b: 9934796806946755513}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 42}
+children:
+  - {localId: 44}
+  - {localId: 91}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &44
+name: !<str> ""
+guid: {a: 11403645775246305027, b: 2899829696583654037}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !Transform &45
+name: !<str> ""
+guid: {a: 12558281308005360658, b: 17380101474803007107}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 46}
+  - {localId: 50}
+  - {localId: 51}
+  - {localId: 52}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &46
+name: !<str> ""
+guid: {a: 10613494250788068816, b: 9115582287902687897}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: !<str> ""
+guid: {a: 14361888890494501578, b: 15757524924330354860}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 21}
+children:
+  - {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: !<str> SkeletonAndRenderRoot
+guid: {a: 4273437645037215104, b: 682917828901986232}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1.388192, y: 1.388192, z: 1.388192}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 47}
+children:
+  - {localId: 49}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &49
+name: !<str> Bulb_Mesh
+guid: {a: 17170739721468498205, b: 14322648253819521170}
+enabled: true
+localPosition: {x: 0, y: 3.625345, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &50
+name: !<str> ""
+guid: {a: 17313013863397834828, b: 3811548508062399395}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &51
+name: !<str> ""
+guid: {a: 4413743925465933767, b: 17462092962979040907}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &52
+name: !<str> ""
+guid: {a: 10468127104813476461, b: 5455952265816153764}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &91
+name: !<str> ""
+guid: {a: 4341776139104461835, b: 16965012039882671750}
+enabled: true
+localPosition: {x: 0, y: -6.25, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -200}
+sizeDelta: {x: 160, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !Transform &92
+name: !<str> ""
+guid: {a: 5856251681451376804, b: 2955963205980417973}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 24}
+children:
+  - {localId: 93}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &93
+name: !<str> SkeletonAndRenderRoot
+guid: {a: 12125695420512897644, b: 10440299710846646178}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 92}
+children:
+  - {localId: 94}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &94
+name: !<str> BulbSocket_Mesh
+guid: {a: 885685114284190545, b: 2704313650114181816}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1.34757, y: 1.34757, z: 1.34757}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 93}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &95
+name: !<str> ""
+guid: {a: 6001925009801245436, b: 4306933045958837926}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 102}
+children:
+  - {localId: 96}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &96
+name: !<str> SkeletonAndRenderRoot
+guid: {a: 1101069205588349289, b: 6811465702714481060}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 2.017775, y: 2.017775, z: 2.017775}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 95}
+children:
+  - {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &97
+name: !<str> Moth_Model
+guid: {a: 15872480481457853106, b: 6674411061130243985}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 96}
+children:
+  - {localId: 98}
+  - {localId: 99}
+  - {localId: 100}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &98
+name: !<str> MothBody_Mesh
+guid: {a: 8812478745970679209, b: 3352631958635456190}
+enabled: true
+localPosition: {x: 0, y: -0.3319031, z: 2.980232e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &99
+name: !<str> MothWingR_Mesh
+guid: {a: 1891914667928648844, b: 11652998784412367752}
+enabled: true
+localPosition: {x: -0.3875026, y: -0.7305202, z: -0.004325664}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9659258, x: 0, y: -0.2588191, z: 0}
+parent: {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &100
+name: !<str> MothWingL_Mesh
+guid: {a: 12847761635080833246, b: 1765246559867703992}
+enabled: true
+localPosition: {x: 0.3867624, y: -0.7305202, z: -0.005607765}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9659258, x: 0, y: 0.2588191, z: 0}
+parent: {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &101
+name: !<str> ""
+guid: {a: 11044093010443142982, b: 5843407241604230803}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.8477511, x: 0.03967782, y: 0.3369715, z: 0.4076689}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &102
+name: !<str> ""
+guid: {a: 6359580770718562299, b: 17708846970975839884}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 0.4, y: 0.4, z: 0.4}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 29}
+children:
+  - {localId: 95}
+  - {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic

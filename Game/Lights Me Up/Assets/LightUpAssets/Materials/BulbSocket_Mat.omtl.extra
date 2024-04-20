@@ -1,0 +1,51 @@
+[
+  {
+    "guid": {
+      "a": "5875b713-bf7f-1b58-4337-282a2a405ba9",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "BulbSocket_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.5.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5495098627453090595, 13882775031360732584)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "30e1336e-7e23-b09b-31fb-87b05e5a7914"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_NormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_MRAOTexture",
+        "guid": "7375ea0a-2206-e3a9-74a3-ba9d5af8a7fc"
+      },
+      {
+        "propertyName": "_RadianceTexture",
+        "guid": "00000000-0000-0000-0000-000000000800"
+      },
+      {
+        "propertyName": "_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RimHighlightTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_ThinFilmTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      }
+    ]
+  }
+]

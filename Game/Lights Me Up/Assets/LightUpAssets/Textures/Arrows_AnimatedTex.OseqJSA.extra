@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "391e7e97-83f1-f536-1d55-a9dd159d3708",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "Arrows_AnimatedTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

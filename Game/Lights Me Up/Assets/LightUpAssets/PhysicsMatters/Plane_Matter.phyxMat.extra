@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "823b8943-f5ea-8b81-ca5c-7127eaf8904b",
+      "b": ""
+    },
+    "extraType": "ResItemPhysicsMaterial",
+    "name": "Plane_Matter",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "AMGPhysicsMaterial",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

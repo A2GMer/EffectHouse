@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "1b27f87c-0c59-ff33-4670-862ac19e9169",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "FailureFace_AnimatedTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

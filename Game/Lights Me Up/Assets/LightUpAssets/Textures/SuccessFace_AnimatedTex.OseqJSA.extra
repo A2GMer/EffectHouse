@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "b1ecfc02-5417-15b7-7563-34bf6c74c5a3",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "SuccessFace_AnimatedTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

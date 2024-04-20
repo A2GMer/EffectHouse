@@ -1,0 +1,51 @@
+[
+  {
+    "guid": {
+      "a": "bd1176cf-f3d3-aa01-132d-5f2d0002a6c0",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Moth_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.5.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(1245197550887876225, 6706258043330899618)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "6f3ce600-9ff8-9d0d-c482-279d7710035e"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_NormalTexture",
+        "guid": "deee9265-7b19-61fa-4f09-521aa7ee96a1"
+      },
+      {
+        "propertyName": "_MRAOTexture",
+        "guid": "eb4636cc-11db-5471-f583-3d85170a8ab4"
+      },
+      {
+        "propertyName": "_RadianceTexture",
+        "guid": "00000000-0000-0000-0000-000000000800"
+      },
+      {
+        "propertyName": "_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RimHighlightTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_ThinFilmTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      }
+    ]
+  }
+]

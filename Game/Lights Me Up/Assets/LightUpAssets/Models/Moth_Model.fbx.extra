@@ -1,0 +1,33 @@
+[
+  {
+    "guid": {
+      "a": "41480212-4d54-9d89-dc93-489dfa377c74",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Moth_Model",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "49112724-58be-d65e-c7a0-5dc280bbea42",
+      "2d94495f-8b32-c7ca-7175-38533cfb4ba7"
+    ],
+    "meshGUIDs": [
+      "c2867b25-f4d3-1fbb-482e-5ad99b289b71",
+      "10e5517c-38a1-d625-b2e2-9da4eb33732c",
+      "80271e67-d72b-1f16-7156-6d3b3e46ebda"
+    ],
+    "animazGUIDs": [
+      "2b03016d-1640-9b6a-e04e-3a8fbd398789"
+    ]
+  }
+]
