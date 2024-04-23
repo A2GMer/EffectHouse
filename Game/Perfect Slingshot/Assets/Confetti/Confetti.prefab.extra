@@ -1,0 +1,113 @@
+[
+  {
+    "guid": {
+      "a": "c302c387-0f44-ec68-12a2-8b0074c55a1b",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "Confetti",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "data": [
+      {
+        "guid": {
+          "a": "5c8b4496-d641-6598-a164-92e1ce7f662b",
+          "b": ""
+        },
+        "objGuid": "Guid(13854388869158127148, 4620298465051785142)",
+        "extraType": "Entity",
+        "name": "Confetti",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "8d0f114e-0256-9163-db91-466f1d031037",
+          "b": ""
+        },
+        "objGuid": "Guid(12703167911611440735, 14231149171004198324)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "e59a6dea-b8b2-10c2-1a6a-631823f11a4e",
+          "b": ""
+        },
+        "objGuid": "Guid(8883875886493157900, 17310498400840305044)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "Normal",
+        "texture": "1950b25e-f1df-4408-331e-944b24533bac"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": [
+      {
+        "camData": {
+          "layerVisibleMask": "numbits:64; numblock:2; hexadecimal:0x0 1 ",
+          "zFar": 1000,
+          "zNear": 0.10000000149011612,
+          "clearColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "clearType": 2,
+          "fovy": 60,
+          "alwaysClear": true,
+          "type": 1,
+          "renderOrder": 0,
+          "orthoScale": 20,
+          "viewport": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "transformData": {
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "localOrientation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localPosition": [
+            0,
+            0,
+            40
+          ]
+        }
+      }
+    ]
+  }
+]

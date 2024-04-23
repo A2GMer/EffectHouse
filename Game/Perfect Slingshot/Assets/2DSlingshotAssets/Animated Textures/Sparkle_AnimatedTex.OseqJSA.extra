@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "db628de2-67bc-60ac-df41-1bd5bb800493",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "Sparkle_AnimatedTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "f2ff5948-cb35-0224-0723-07b0a87e3308",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "StringForeground_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/bytedance/Desktop/Effect Projects/Templates/slingshot/Sling_Shot_Updated/Strap_FG_Updated.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

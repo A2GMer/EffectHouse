@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "57dd9b95-9e2b-52aa-2a5f-fd3fccab4549",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Resources",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

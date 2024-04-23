@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "284076bc-c336-c952-3639-c4e293b915cc",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "SlingshotBackground_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/bytedance/Desktop/Effect Projects/Templates/slingshot/SS_01/Back_Slingshot.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "47db8297-8e04-cab3-c015-22e1d56ae85a",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "LeatherHolder_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/bytedance/Desktop/Effect Projects/Templates/slingshot/Sling_Shot_Updated/Leather_Holder_Updated.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

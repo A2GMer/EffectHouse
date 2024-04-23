@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "a678a996-9476-6954-19b2-1cc0b1c78c2f",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "SwipeLeftPrompt_AnimTex",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7299257512400977921",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7299257512400977921/Resources/Animated Textures/SwipeLeftPrompt_AnimTex.OseqJSA"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "65a96514-70e7-b4cc-02b3-aebcf323c4b0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "CloudsBackground_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/bytedance/Documents/AugustEffectHub/Templates/2D_Physics_Slingshot_(For_Game_Jam)/Assets/2D/PNG/BG_Clouds_Updated.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": false
+  }
+]

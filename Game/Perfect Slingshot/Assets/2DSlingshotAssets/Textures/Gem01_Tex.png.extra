@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "ecfee602-263f-c1ed-ce48-4076cf7e9292",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Gem01_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/bytedance/Desktop/Effect Projects/Templates/slingshot/PNGs/Gem_01.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

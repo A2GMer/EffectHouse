@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "04545235-4561-4808-dfcd-0e321114147d",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "SwipeLeftPrompt_TexSequence",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7299257512400977921",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7299257512400977921/Resources/Textures/SwipeLeftPrompt_TexSequence.otextureseq",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

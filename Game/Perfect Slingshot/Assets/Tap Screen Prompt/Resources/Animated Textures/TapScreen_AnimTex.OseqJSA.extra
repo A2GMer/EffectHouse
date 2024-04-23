@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "f661c09d-e03b-df27-d463-064a8d7380a8",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "TapScreen_AnimTex",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7299257512400928769",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7299257512400928769/Resources/Animated Textures/TapScreen_AnimTex.OseqJSA"
+  }
+]

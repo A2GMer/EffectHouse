@@ -1,0 +1,92 @@
+{
+	"name": "Apply Impulse 2D",
+	"id": "46ed52d6-2f0c-f823-7252-ffba3454211f",
+	"inputs": [
+		{
+			"name": "Enter",
+			"description": "Start rigid body operation",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_add_impulse_2d_input_enter",
+			"descriptionKey": "graph_add_impulse_2d_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Rigid Body",
+			"type": "Component",
+			"item_type": "",
+			"description": "The Rigid Body component that you want to add an external force to.",
+			"displayType": "Component",
+			"nameKey": "graph_add_impulse_2d_input_rigidbody",
+			"descriptionKey": "graph_add_impulse_2d_input_rigidbody_description",
+			"displayTypeKey": "graph_type_component"
+		},
+		{
+			"name": "Force",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"item_type": "",
+			"description": "The magnitude and direction of the impulse force that you want to add to the Rigid Body component.",
+			"nameKey": "graph_add_impulse_2d_input_force",
+			"descriptionKey": "graph_add_impulse_2d_input_force_description",
+			"displayTypeKey": "graph_type_vec2"
+		},
+		{
+			"name": "Position",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"item_type": "",
+			"description": "The position in the local space where you want to add the impulse force.",
+			"nameKey": "graph_add_impulse_2d_input_position",
+			"descriptionKey": "graph_add_impulse_2d_input_position_description",
+			"displayTypeKey": "graph_type_vec2"
+		},
+		{
+			"name": "Is Local Impulse",
+			"type": "Bool",
+			"item_type": "",
+			"description": "Check if you want to add the impulse force in the local space; uncheck if in the world space",
+			"displayType": "Boolean",
+			"nameKey": "graph_add_impulse_2d_input_islocalimpulse",
+			"descriptionKey": "graph_add_impulse_2d_input_islocalimpulse_description",
+			"displayTypeKey": "graph_type_boolean"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"description": "Execute the next node",
+			"displayType": "Exec",
+			"nameKey": "graph_add_impulse_2d_output_next",
+			"descriptionKey": "graph_add_impulse_2d_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Current Impulse",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"item_type": "",
+			"description": "The current impulse added to the object",
+			"nameKey": "graph_add_impulse_2d_output_currentimpulse",
+			"descriptionKey": "graph_add_impulse_2d_output_currentimpulse_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"nodeEvent": [
+		"onUpdate",
+		"resetOnRecord"
+	],
+	"js": "CGAddImpulse2D.js",
+	"version": "1.0.0",
+	"SDKVersion": "16.1.0",
+	"category": "Physics",
+	"description": "Adds an instantaneous force to a specified Rigid Body component",
+	"productTypes": [
+		"EHO",
+		"EHI"
+	],
+	"nameKey": "graph_apply_impulse_2d_name",
+	"categoryKey": "graph_category_physics",
+	"descriptionKey": "graph_add_impulse_2d_description"
+}

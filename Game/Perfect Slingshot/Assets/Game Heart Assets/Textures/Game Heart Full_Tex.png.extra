@@ -1,0 +1,29 @@
+[
+  {
+    "guid": {
+      "a": "3ae7783c-e175-a858-6ab2-ed10a3dd9a50",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Game Heart Full_Tex",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7287882682644774914",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7287882682644774914/Textures/Game Heart Full_Tex.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

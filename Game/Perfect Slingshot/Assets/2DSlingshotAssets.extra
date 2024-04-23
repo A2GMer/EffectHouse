@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "6a801b40-861b-c7d1-007f-93deca7532da",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "2DSlingshotAssets",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

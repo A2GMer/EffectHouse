@@ -1,0 +1,263 @@
+[
+  {
+    "guid": {
+      "a": "cf834c75-9122-33d5-5957-ee1b858696f1",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "Game Heart Assets",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "data": [
+      {
+        "guid": {
+          "a": "094895a9-6afd-47f1-50be-8bea4ef166e4",
+          "b": ""
+        },
+        "objGuid": "Guid(3337036390720951567, 10821589511767090050)",
+        "extraType": "Entity",
+        "name": "2D Camera",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "907649c6-0077-b323-8dc5-8950dd52d034",
+          "b": ""
+        },
+        "objGuid": "Guid(14791729206735892757, 10582581412588139948)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "0038bcfe-c843-a521-b289-6ce33660147a",
+          "b": ""
+        },
+        "objGuid": "Guid(12412478631311549660, 16124029285275492763)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "ec89ff19-eb5d-f991-6497-0a96a58253c6",
+          "b": ""
+        },
+        "objGuid": "Guid(13208119291695429187, 9815959167183468426)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "97439ba9-6ee5-fa1e-4368-e5009466a19e",
+          "b": ""
+        },
+        "objGuid": "Guid(15151671869893742340, 4165907339366575492)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "4093c01c-8ef0-0b79-a911-ec77c5b32745",
+          "b": ""
+        },
+        "objGuid": "Guid(12340229442765983708, 14983126112646564260)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "210b4179-91e5-9abc-c9ec-47f794df4497",
+          "b": ""
+        },
+        "objGuid": "Guid(17672243735314274785, 13383033119683027898)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "96d0ccb2-eef7-daa3-f4a1-23dd9bdcfe51",
+          "b": ""
+        },
+        "objGuid": "Guid(10902358352723001937, 8390871539080789141)",
+        "extraType": "Entity",
+        "name": "Game Heart Empty 1",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "1b40c40a-96b2-76ae-e0a3-c8e3e7152e29",
+          "b": ""
+        },
+        "objGuid": "Guid(2038181386155786936, 17532463076643738799)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "Normal"
+      },
+      {
+        "guid": {
+          "a": "6172bafe-5e26-f0c7-92df-d829f105eae5",
+          "b": ""
+        },
+        "objGuid": "Guid(3048498214240011396, 14290917681346012069)",
+        "extraType": "Entity",
+        "name": "Game Heart Empty 2",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "449fbd34-c2a8-abac-e2a7-554ba468a9c3",
+          "b": ""
+        },
+        "objGuid": "Guid(7368198879225281220, 310637828087801753)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "Normal"
+      },
+      {
+        "guid": {
+          "a": "4e2dff37-069b-659b-c08e-4c0ebc20efa0",
+          "b": ""
+        },
+        "objGuid": "Guid(12270140534574203497, 14530591319705716615)",
+        "extraType": "Entity",
+        "name": "Game Heart Empty 3",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "142cdba8-1663-9cf9-6a6d-7499c816705c",
+          "b": ""
+        },
+        "objGuid": "Guid(12702166336361420871, 2148372991236689818)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "Normal"
+      },
+      {
+        "guid": {
+          "a": "46ff5cb4-996c-5085-4078-553ef45181f3",
+          "b": ""
+        },
+        "objGuid": "Guid(5784157105481333744, 17147960377522169227)",
+        "extraType": "Entity",
+        "name": "Game Heart Full",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "5ccc51be-44d9-d449-6316-676a65a0d5b2",
+          "b": ""
+        },
+        "objGuid": "Guid(16594069512276794834, 2892085122595210117)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "Normal"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

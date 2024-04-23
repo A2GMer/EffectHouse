@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "cd54c901-408c-51c0-6ec2-5fe52eb33da8",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Sparkle_TexSequence",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

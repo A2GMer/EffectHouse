@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "95e49519-2cf4-f044-99e7-233ed0750516",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Game Heart Assets",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

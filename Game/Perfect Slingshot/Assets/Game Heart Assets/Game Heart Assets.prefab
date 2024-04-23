@@ -1,0 +1,244 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> Game Heart Assets
+guid: {a: 17168637562560814330, b: 7849260186503653524}
+entities:
+  - __class: Entity
+    name: !<str> Game Heart Assets
+    guid: {a: 3337036390720951567, b: 10821589511767090050}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 17672243735314274785, b: 13383033119683027898}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: SORT_ORDER_AND_RENDERQUEUES
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: NEVER
+    layer: 0
+  - __class: Entity
+    name: !<str> Game Heart Empty 1
+    guid: {a: 10902358352723001937, b: 8390871539080789141}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 2038181386155786936, b: 17532463076643738799}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 2151e23c-3c2c-ff4d-52d4-f1bec43d1cdb--2151e23c-3c2c-ff4d-52d4-f1bec43d1cdb.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+  - __class: Entity
+    name: !<str> Game Heart Empty 2
+    guid: {a: 3048498214240011396, b: 14290917681346012069}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 7368198879225281220, b: 310637828087801753}
+        enabled: true
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 2151e23c-3c2c-ff4d-52d4-f1bec43d1cdb--2151e23c-3c2c-ff4d-52d4-f1bec43d1cdb.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+  - __class: Entity
+    name: !<str> Game Heart Empty 3
+    guid: {a: 12270140534574203497, b: 14530591319705716615}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 12702166336361420871, b: 2148372991236689818}
+        enabled: true
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 2151e23c-3c2c-ff4d-52d4-f1bec43d1cdb--2151e23c-3c2c-ff4d-52d4-f1bec43d1cdb.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+  - __class: Entity
+    name: !<str> Game Heart Full
+    guid: {a: 5784157105481333744, b: 17147960377522169227}
+    selfvisible: true
+    components:
+      - {localId: 6}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 16594069512276794834, b: 2892085122595210117}
+        enabled: true
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 3ae7783c-e175-a858-6ab2-ed10a3dd9a50--3ae7783c-e175-a858-6ab2-ed10a3dd9a50.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: !<str> ""
+guid: {a: 14791729206735892757, b: 10582581412588139948}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+  - {localId: 4}
+  - {localId: 5}
+  - {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &3
+name: !<str> ""
+guid: {a: 12412478631311549660, b: 16124029285275492763}
+enabled: true
+localPosition: {x: -5.437501, y: -6.777779, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -174, y: -216.8889}
+sizeDelta: {x: 156, y: 277.3334}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !ScreenTransform &4
+name: !<str> ""
+guid: {a: 13208119291695429187, b: 9815959167183468426}
+enabled: true
+localPosition: {x: 0, y: -6.777779, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -216.8889}
+sizeDelta: {x: 156, y: 277.3334}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !ScreenTransform &5
+name: !<str> ""
+guid: {a: 15151671869893742340, b: 4165907339366575492}
+enabled: true
+localPosition: {x: 5.4375, y: -6.777779, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 174, y: -216.8889}
+sizeDelta: {x: 156, y: 277.3334}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !ScreenTransform &6
+name: !<str> ""
+guid: {a: 12340229442765983708, b: 14983126112646564260}
+enabled: true
+localPosition: {x: -5.492185, y: -6.791664, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -175.7499, y: -217.3333}
+sizeDelta: {x: 160.5001, y: 285.3335}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32

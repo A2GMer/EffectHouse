@@ -1,0 +1,182 @@
+[
+  {
+    "guid": {
+      "a": "0d0f4474-0c40-d909-d290-8774900f577d",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "Tap Screen Prompt",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "data": [
+      {
+        "guid": {
+          "a": "5497eb02-971d-6747-aa58-25bcd070eff2",
+          "b": ""
+        },
+        "objGuid": "Guid(16953998796129205819, 2094523458514246838)",
+        "extraType": "Entity",
+        "name": "Tap Screen Prompt",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "1654b3a9-3c57-c793-8874-eaac9a451d63",
+          "b": ""
+        },
+        "objGuid": "Guid(7659036881238222340, 7966142232784423076)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "2dc3bb58-ac79-a018-0750-765c3e02f6ff",
+          "b": ""
+        },
+        "objGuid": "Guid(2180232431952527327, 13822747295652038540)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "9c463f8c-49d3-04e9-e9ca-e142ed278217",
+          "b": ""
+        },
+        "objGuid": "Guid(9603066536282692672, 9738928756757236878)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "cd08a90e-e7e1-8c25-e41d-ff3018af2091",
+          "b": ""
+        },
+        "objGuid": "Guid(14000565164866068662, 11193773569280478110)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "7561943b-a4c3-ddf5-761a-86360dd08166",
+          "b": ""
+        },
+        "objGuid": "Guid(9100076136343415896, 6694271616789740977)",
+        "extraType": "Entity",
+        "name": "Backdrop",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "2727a510-5424-13b4-c3ba-9b70328349e9",
+          "b": ""
+        },
+        "objGuid": "Guid(15442455280598475888, 9167548719204771725)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+        "blendMode": "Normal",
+        "drawMode": "Normal",
+        "filledType": 0,
+        "startPoint": 0,
+        "filledRange": 1,
+        "ellipseX": 1,
+        "ellipseY": 1
+      },
+      {
+        "guid": {
+          "a": "2f3697cf-84a0-1085-2629-d8126f1a8b68",
+          "b": ""
+        },
+        "objGuid": "Guid(19199185880606569, 18331737988227637666)",
+        "extraType": "Entity",
+        "name": "Tap Screen Prompt",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "26b18c62-7488-50dd-c158-b5dfb8bfc426",
+          "b": ""
+        },
+        "objGuid": "Guid(1102427919504371445, 1654028127645278903)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+        "blendMode": "Normal",
+        "drawMode": "Normal",
+        "filledType": 0,
+        "startPoint": 0,
+        "filledRange": 1,
+        "ellipseX": 1,
+        "ellipseY": 1,
+        "texture": "f661c09d-e03b-df27-d463-064a8d7380a8"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

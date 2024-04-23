@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "9ae9eb06-26fd-8c96-1544-f807bc0e3b8c",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Ball_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/bytedance/Desktop/Effect Projects/Templates/slingshot/SlingShot_Assets/Ball.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

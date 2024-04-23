@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "3acfb338-bf52-df1a-99b9-2f56d42efd93",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Swipe Left Prompt",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]
