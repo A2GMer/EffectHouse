@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "e93a8eb4-783c-04a8-b7bb-f36f086abd68",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Hearts_28",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7348097403016429569",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7348097403016429569/Textures/Hearts_28.otextureseq",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

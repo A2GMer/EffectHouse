@@ -1,0 +1,31 @@
+[
+  {
+    "guid": {
+      "a": "bd87a2a8-0dd7-0a80-3002-5489bc8a1fef",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "toon_cat_free",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/toon_cat_free.glb",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "da42d2c7-8d81-0054-10cd-1e7f0a50c21b"
+    ],
+    "meshGUIDs": [
+      "590612b2-911d-9b94-a577-32e6e60ad454"
+    ],
+    "animazGUIDs": [
+      "69ebbd36-a970-8a71-6ed9-09e2addf2ccb"
+    ]
+  }
+]

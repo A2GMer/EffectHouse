@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "26c798bb-e4f7-0496-ba20-768c9e0ec33b",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Tap Follower",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "assetPackageID": "7270261243628486657",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7270261243628486657/Tap Follower.ssubgraph",
+    "combinedWithNodeLibary": false
+  }
+]

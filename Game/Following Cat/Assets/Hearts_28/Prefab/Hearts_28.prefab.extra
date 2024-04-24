@@ -1,0 +1,120 @@
+[
+  {
+    "guid": {
+      "a": "bed0c272-b885-b45f-46ed-35a7d1832990",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "Hearts_28",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "data": [
+      {
+        "guid": {
+          "a": "9b71c4c4-b195-11ee-8ee3-b66b3438eec3",
+          "b": ""
+        },
+        "objGuid": "Guid(1821265609141176374, 7771777378507822269)",
+        "extraType": "Entity",
+        "name": "2D 相机",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "963e94f4-ae85-c233-8a4c-4fc7c76fe7da",
+          "b": ""
+        },
+        "objGuid": "Guid(8596513768905536928, 5683654942921264818)",
+        "extraType": "Transform",
+        "name": "变换",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "d6f6aece-efdd-ab17-4727-80233f1ab8c5",
+          "b": ""
+        },
+        "objGuid": "Guid(16737454388699169860, 5793562453410149555)",
+        "extraType": "ScreenTransform",
+        "name": "屏幕变换",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "463c2487-a854-1258-14b5-2f9a976036a0",
+          "b": ""
+        },
+        "objGuid": "Guid(13352862971136197909, 5096427640895756951)",
+        "extraType": "Camera",
+        "name": "相机",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "75b75a9c-0e15-185a-2dec-02ea0b55b4f2",
+          "b": ""
+        },
+        "objGuid": "Guid(16736439065897537723, 5539139846397587868)",
+        "extraType": "Entity",
+        "name": "屏幕图片",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "7106140a-eeae-2d18-c214-5a7bdc90fe3f",
+          "b": ""
+        },
+        "objGuid": "Guid(9749123429133431096, 4290691384469753508)",
+        "extraType": "Image",
+        "name": "图片",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "",
+        "texture": "f4441521-4d40-1fce-0b6e-4630c6fa44c8"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

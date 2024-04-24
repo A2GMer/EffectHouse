@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "e0b5a3ba-e6b3-b007-dadb-0dcc8d5a5f69",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "TapScreen_TexSequence",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7299257512400928769",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7299257512400928769/Resources/Textures/TapScreen_TexSequence.otextureseq",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

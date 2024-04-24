@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "337beed0-7018-c24b-6f38-3e2925e91b93",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Tap Follower",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

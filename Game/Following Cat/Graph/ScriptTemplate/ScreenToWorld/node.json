@@ -1,0 +1,60 @@
+{
+	"name": "Screen to World",
+	"id": "7e382d00-278d-87c7-f567-078620511480",
+	"inputs": [
+		{
+			"name": "Screen Pos",
+			"type": "Vector2f",
+			"item_type": "",
+			"description": "The position in viewport space",
+			"displayType": "Vec2",
+			"nameKey": "graph_screen_to_world_input_screenpos",
+			"descriptionKey": "graph_screen_to_world_input_screenpos_description",
+			"displayTypeKey": "graph_type_vec2"
+		},
+		{
+			"name": "Z Depth",
+			"type": "Double",
+			"item_type": "",
+			"description": "The Z position in world units from the camera",
+			"displayType": "Number",
+			"nameKey": "graph_screen_to_world_input_zdepth",
+			"descriptionKey": "graph_screen_to_world_input_zdepth_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Camera",
+			"type": "Camera",
+			"description": "The camera that provides the input viewport space",
+			"displayType": "Camera",
+			"nameKey": "graph_screen_to_world_input_camera",
+			"descriptionKey": "graph_screen_to_world_input_camera_description",
+			"displayTypeKey": "graph_type_camera"
+		}
+	],
+	"outputs": [
+		{
+			"name": "World Pos",
+			"type": "Vector3f",
+			"item_type": "",
+			"description": "The position in world space.",
+			"displayType": "Vec3",
+			"nameKey": "graph_screen_to_world_output_worldpos",
+			"descriptionKey": "graph_screen_to_world_output_worldpos_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"js": "CGScreenToWorld.js",
+	"version": "1.0.0",
+	"category": "Transform",
+	"description": "Transform a position from camera viewport space to world space. The input viewport space is normalized to the camera. The bottom left of the camera viewport is (0,0) and the top right is (1,1). The Z position is in world units from the camera.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"onlineWebsite": "graph_screen_to_world_website",
+	"nameKey": "graph_screen_to_world_name",
+	"categoryKey": "graph_category_transform",
+	"descriptionKey": "graph_screen_to_world_description"
+}

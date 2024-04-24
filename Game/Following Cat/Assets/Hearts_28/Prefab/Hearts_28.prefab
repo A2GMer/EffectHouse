@@ -1,0 +1,99 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> Hearts_28
+guid: {a: 12700845155362005527, b: 10200647315062926755}
+entities:
+  - __class: Entity
+    name: !<str> Hearts_28
+    guid: {a: 1821265609141176374, b: 7771777378507822269}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 13352862971136197909, b: 5096427640895756951}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: SORT_ORDER_AND_RENDERQUEUES
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: NEVER
+    layer: 0
+  - __class: Entity
+    name: !<str> Hearts_28
+    guid: {a: 16736439065897537723, b: 5539139846397587868}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 9749123429133431096, b: 4290691384469753508}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: !<str> ""
+guid: {a: 8596513768905536928, b: 5683654942921264818}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &3
+name: !<str> ""
+guid: {a: 16737454388699169860, b: 5793562453410149555}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -50}
+sizeDelta: {x: 280, y: 280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32

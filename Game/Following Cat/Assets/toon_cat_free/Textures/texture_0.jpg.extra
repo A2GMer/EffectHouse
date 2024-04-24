@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "8d35f7db-e710-f8d3-3e84-4c36e9366977",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "texture_0",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/Assets/TexturesTmp/texture_0.jpg",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": true,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 2,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

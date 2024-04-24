@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "40565ea4-1ef3-22bc-5359-6744d581307e",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "toon_cat_free",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]
