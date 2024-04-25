@@ -1,0 +1,27 @@
+{
+  "projectId": "3a38c46e-0159-6343-9632-aba771158432",
+  "isFromTemplate": true,
+  "templateId": "templateID_3DFaceMask",
+  "opMap": {
+    "PropertyChange": {
+      "count": 8,
+      "seed": "yjmg08ac"
+    },
+    "RemoveNode": {
+      "count": 6,
+      "seed": "zhwxsd9b"
+    },
+    "AddEntity": {
+      "count": 10,
+      "seed": "f2fsxpal"
+    },
+    "RemoveEntity": {
+      "count": 15,
+      "seed": "iv24fv21"
+    },
+    "AddEdge": {
+      "count": 2,
+      "seed": "3ws3n5n1"
+    }
+  }
+}

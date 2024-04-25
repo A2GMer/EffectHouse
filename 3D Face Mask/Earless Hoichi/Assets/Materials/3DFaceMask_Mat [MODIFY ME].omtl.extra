@@ -1,0 +1,40 @@
+[
+  {
+    "guid": {
+      "a": "73ee4d59-97c0-d995-8de0-66ae71a04655",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "3DFaceMask_Mat [MODIFY ME]",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.5.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(13064588370003086598, 13614502541697704636)",
+    "references": [
+      {
+        "propertyName": "_NormalTexture",
+        "guid": "23402e8b-7321-b747-ed19-6d32c11a5161"
+      },
+      {
+        "propertyName": "_MRAOTexture",
+        "guid": "c61bdbbc-46f5-aec2-b177-3d249ebce48c"
+      },
+      {
+        "propertyName": "_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_AmbientTexture",
+        "guid": "00000000-0000-0000-0000-000000000020"
+      },
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "2a6e2263-88d0-9798-a5cb-0300dde63ac8"
+      }
+    ],
+    "currAuslVersion": "1.0.0"
+  }
+]

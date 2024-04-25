@@ -1,0 +1,49 @@
+{
+	"name": "Cos",
+	"id": "789dec98-0748-c971-abd3-602073d44d2a",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Double",
+			"item_type": "",
+			"default_value": "0",
+			"dynamic": true,
+			"description": "The input value in radians",
+			"displayType": "Number",
+			"nameKey": "graph_cos_input_a",
+			"descriptionKey": "graph_cos_input_a_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Cos",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The cosine of the input value",
+			"displayType": "Number",
+			"nameKey": "graph_cos_output_cos",
+			"descriptionKey": "graph_cos_output_cos_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"lua": "CGCos.lua",
+	"js": "CGCos.js",
+	"version": "1.0.1",
+	"luaFuncName": "CGCos",
+	"category": "Math",
+	"description": "Calculate the cosine of the input value.",
+	"supportedValueTypes": [
+		"Double",
+		"Int"
+	],
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"nameKey": "graph_cos_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_cos_description"
+}

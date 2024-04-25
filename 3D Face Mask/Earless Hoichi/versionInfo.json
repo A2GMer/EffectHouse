@@ -1,0 +1,13 @@
+{
+  "version": "4.0.0",
+  "handlers": {
+    "ComponentsCompatibilityHandler": {
+      "Transform": "2f91ec751391c0d8b5d698e286f891ed",
+      "DirectionalLight": "ef18955537902d318b25333b9e7b53f1",
+      "EffectNode": "ece7c1905e63fcd90609e3f84aea2c2d",
+      "Camera": "074ca08908c828c095eade68ded2f0c4",
+      "MeshRenderer": "0ed8ea86d5371c8bbe2ea5908543a838",
+      "FaceShapeV2": "8f0dbdb87e942a1525134ae7261045c9"
+    }
+  }
+}

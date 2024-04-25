@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "e4c9bf4f-dec6-ea34-35ec-2159251f5c3f",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "3DFaceMask_BaseColor",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]
