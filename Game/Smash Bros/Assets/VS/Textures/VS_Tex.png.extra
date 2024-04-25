@@ -1,0 +1,29 @@
+[
+  {
+    "guid": {
+      "a": "2f19b212-e36c-b437-c3b8-aac1ca5f0307",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "VS_Tex",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7287884115691651073",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7287884115691651073/Textures/VS_Tex.png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

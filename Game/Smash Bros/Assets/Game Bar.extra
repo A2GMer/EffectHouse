@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "899a039a-da5c-51c4-0f11-09c0888c19ff",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Game Bar",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

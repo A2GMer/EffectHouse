@@ -1,0 +1,53 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> ""
+guid: {a: 1679727913317235817, b: 15532976270238012820}
+entities:
+  - __class: Entity
+    name: !<str> VS
+    guid: {a: 14721839174745561829, b: 6935069913113272465}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 7586850490974130411, b: 1931955916562040231}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 2f19b212-e36c-b437-c3b8-aac1ca5f0307--2f19b212-e36c-b437-c3b8-aac1ca5f0307.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !ScreenTransform &2
+name: !<str> ""
+guid: {a: 11044834047497909795, b: 4959117205429343661}
+enabled: true
+localPosition: {x: 0, y: -5.967909, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -190.9731}
+sizeDelta: {x: 426.3428, y: 757.9427}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32

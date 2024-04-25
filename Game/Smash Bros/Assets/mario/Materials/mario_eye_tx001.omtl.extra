@@ -1,0 +1,113 @@
+[
+  {
+    "guid": {
+      "a": "61909c69-623f-f2ab-31bc-12d0e0b311eb",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "mario_eye_tx001",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.6.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Applications/Effect House.app/Contents/Resources/BuiltinResource/assets/material/Uber.omtl",
+    "skinObjGuid": "Guid(2974111642475801630, 11369860095747908285)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "de0d6b44-b15b-68ce-d48b-4981952b3c71"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_HeightmapTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_NormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_BentNormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_DetailNormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_FlakeTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_CoatNormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_MRAOTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_SpecularWorkflowTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RimHighlightTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_ThinFilmTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_CoatTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RefractionTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_DissolveEdgeColorGradient",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_FabricTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_ScatterTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_DetailAlbedoTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_LightmapTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RadianceTexture",
+        "guid": "00000000-0000-0000-0000-000000000800"
+      },
+      {
+        "propertyName": "_FabricLut",
+        "guid": "00000000-0000-0000-0000-000000000222"
+      },
+      {
+        "propertyName": "_AnisotropyTexture",
+        "guid": "00000000-0000-0000-0000-0000000001ff"
+      }
+    ],
+    "currAuslVersion": "1.0.0"
+  }
+]

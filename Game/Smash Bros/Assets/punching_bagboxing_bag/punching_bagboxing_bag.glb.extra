@@ -1,0 +1,43 @@
+[
+  {
+    "guid": {
+      "a": "ce504759-4337-3926-12df-900566bed51f",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "punching_bagboxing_bag",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/punching_bagboxing_bag.glb",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "9e7787be-3a84-25c7-0f3c-7bfb914448db",
+      "fe08c540-76d5-7de4-b44c-837e94038565"
+    ],
+    "meshGUIDs": [
+      "40062f21-d9b9-0f29-ae31-0224c220cb6c",
+      "292b872b-c740-5baf-57ed-b52d6d6a04ab",
+      "94bb9a7b-cbf1-eb01-3dd5-2c5da8225ff7",
+      "0ebf12c9-3bb8-ff0b-407d-7e2c53ef7b21",
+      "0a2b93a1-a8cc-5158-a745-1ab18f803588",
+      "66ec59b2-bbe8-66a4-fb3e-0e8534e46de2",
+      "b7791f51-a4c7-ba3d-0dba-30af9c9a7697",
+      "705e59eb-23d1-143a-90e3-763880d13a3e",
+      "fc5e6bc8-a278-e65d-5ab6-55842b0b7951",
+      "c86635cf-6221-61f3-4fe7-d8d34ae8736e",
+      "82e5b423-7c2f-68a8-0ca5-aad6b5d3af04",
+      "31004de7-c620-e778-7bff-51c1e457344b",
+      "3ea5fce9-1d80-3080-c919-15f01a231b37",
+      "204ec776-d92b-f756-cfd6-3eb2bab5f4fa"
+    ],
+    "animazGUIDs": []
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "c833c6a7-e291-2c57-cd94-9dde5c49d7a5",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "mario",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

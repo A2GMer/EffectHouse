@@ -1,0 +1,37 @@
+[
+  {
+    "guid": {
+      "a": "1dc04873-eb37-0732-3565-cf1c1533d320",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "mario",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/mario.glb",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "61909c69-623f-f2ab-31bc-12d0e0b311eb",
+      "69fa8bbb-7c01-dfcc-708d-9654050b5c71"
+    ],
+    "meshGUIDs": [
+      "83749c01-b65b-a1ef-f4f8-86b3f58adf60",
+      "e6bc260e-7de1-c258-768e-ac1f96998f48"
+    ],
+    "animazGUIDs": [
+      "00e8106f-8718-a928-2bf3-513b8d2a6d46",
+      "ae6bf374-02dd-08f7-2934-1838e538bf79",
+      "5e49b3b4-1188-ecaf-080e-c4aac2ef0ad1",
+      "037d2ed2-abd8-466d-5c13-5c1910ae5ea3",
+      "41f2619e-df0e-ddc3-0b85-1c2a14b1bf96"
+    ]
+  }
+]

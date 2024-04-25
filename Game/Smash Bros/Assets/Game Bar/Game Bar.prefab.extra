@@ -1,0 +1,167 @@
+[
+  {
+    "guid": {
+      "a": "1f943c92-220c-161d-4a13-0202d663e974",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "Game Bar",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "data": [
+      {
+        "guid": {
+          "a": "94ee6f6c-7fac-9c15-bf48-cdf4ac69b80c",
+          "b": ""
+        },
+        "objGuid": "Guid(12919203924302807305, 1751282588920868265)",
+        "extraType": "Entity",
+        "name": "2D Camera",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "6aeac347-05a5-e96e-fcf4-1839638d6174",
+          "b": ""
+        },
+        "objGuid": "Guid(1172553785463783704, 13470197251749223100)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "2903d8db-6596-34a1-740d-68faf6f6ec3f",
+          "b": ""
+        },
+        "objGuid": "Guid(6144625032069485663, 16451587341404103299)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "948e1eb2-7234-6794-e78d-d5d06e3be3c1",
+          "b": ""
+        },
+        "objGuid": "Guid(7945986639903391292, 5007175957504388998)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "97dbdcf7-8b99-da1c-3c84-c89f4ba53e79",
+          "b": ""
+        },
+        "objGuid": "Guid(12054828282952225770, 9285030756290643106)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "a6df3518-35bd-01c6-723c-fcef5aaddf95",
+          "b": ""
+        },
+        "objGuid": "Guid(10467207490065973602, 1952441237253994670)",
+        "extraType": "Entity",
+        "name": "Game Bar Grey",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "1b20e551-8a6c-4505-274e-fdd1de4f84cc",
+          "b": ""
+        },
+        "objGuid": "Guid(3191455102454535293, 2719160240546506166)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "Normal"
+      },
+      {
+        "guid": {
+          "a": "0a3b8253-0085-a4dd-b3c7-a2eed7d6e7bc",
+          "b": ""
+        },
+        "objGuid": "Guid(7876092855276804801, 14090613675244439691)",
+        "extraType": "Entity",
+        "name": "Game Bar Full",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "ae5dd24c-646d-7088-250f-e1b6fb567048",
+          "b": ""
+        },
+        "objGuid": "Guid(3048800040649332519, 2490436396588827274)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "blendMode": "Normal"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

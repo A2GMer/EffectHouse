@@ -1,0 +1,148 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> Game Bar
+guid: {a: 10754893255244355651, b: 2408798732350606011}
+entities:
+  - __class: Entity
+    name: !<str> Game Bar
+    guid: {a: 12919203924302807305, b: 1751282588920868265}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 12054828282952225770, b: 9285030756290643106}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: SORT_ORDER_AND_RENDERQUEUES
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: NEVER
+    layer: 0
+  - __class: Entity
+    name: !<str> Game Bar Grey
+    guid: {a: 10467207490065973602, b: 1952441237253994670}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 3191455102454535293, b: 2719160240546506166}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 07991551-8cfc-3009-5ca5-a2764848ae20--07991551-8cfc-3009-5ca5-a2764848ae20.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+  - __class: Entity
+    name: !<str> Game Bar Full
+    guid: {a: 7876092855276804801, b: 14090613675244439691}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 3048800040649332519, b: 2490436396588827274}
+        enabled: true
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 9e72acb1-9167-65ba-4879-6566081fc0a6--9e72acb1-9167-65ba-4879-6566081fc0a6.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: !<str> ""
+guid: {a: 1172553785463783704, b: 13470197251749223100}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+  - {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &3
+name: !<str> ""
+guid: {a: 6144625032069485663, b: 16451587341404103299}
+enabled: true
+localPosition: {x: 0, y: -6.444447, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -206.2223}
+sizeDelta: {x: 487.9999, y: 867.5554}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !ScreenTransform &4
+name: !<str> ""
+guid: {a: 7945986639903391292, b: 5007175957504388998}
+enabled: true
+localPosition: {x: 0, y: -6.4375, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -206}
+sizeDelta: {x: 488.25, y: 868}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32

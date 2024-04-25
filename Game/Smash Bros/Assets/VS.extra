@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "b7f23429-7b16-50be-464f-baac88ab902e",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "VS",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

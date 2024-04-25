@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "1aa2cad6-699a-bffb-1e88-0f4be6def5b6",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "punching_bagboxing_bag",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]
