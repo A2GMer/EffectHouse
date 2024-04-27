@@ -513,12 +513,12 @@ entities:
         skin:
           __class: Skin
           name: !<str> ""
-          guid: {a: 13640210441844120508, b: 6628675896714522251}
+          guid: {a: 7873508194266706765, b: 13955544776801070236}
           skelRootName: !<str> ""
           joints:
             - __class: Joint
               name: !<str> mixamorig:Head_05
-              guid: {a: 6723120177515409141, b: 14821930349412193682}
+              guid: {a: 2686398605095321585, b: 10815213761102176934}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, 0.0002654096, -0.8787113, 0.02628779, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 28}
@@ -554,138 +554,138 @@ entities:
         skin:
           __class: Skin
           name: !<str> ""
-          guid: {a: 13134406205580698405, b: 5848357643582810018}
+          guid: {a: 11765622294576478320, b: 18348605019652457624}
           skelRootName: !<str> ""
           joints:
             - __class: Joint
               name: !<str> mixamorig:Hips_00
-              guid: {a: 2614844375738172803, b: 10432762059658977437}
+              guid: {a: 14721797876966965763, b: 9171145508698152870}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, 0, 0, 1, -0, 0, 0, 0, 1, 0, 0.0002654096, -0.4721766, -0.01010925, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 23}
             - __class: Joint
               name: !<str> mixamorig:Spine_01
-              guid: {a: 10542571550718839587, b: 910843195963800209}
+              guid: {a: 1319460654413246641, b: 11566932068381628318}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -0, 0, -0, 0.9939223, 0.1100842, 0, 0, -0.1100842, 0.9939223, 0, 0.0002654096, -0.5445691, -0.06202699, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 24}
             - __class: Joint
               name: !<str> mixamorig:Spine1_02
-              guid: {a: 14073058728029545931, b: 10337748131879939759}
+              guid: {a: 885575140660875222, b: 17429962361504574123}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -0, 0, -0, 0.9939222, 0.1100843, 0, 0, -0.1100843, 0.9939222, 0, 0.0002654096, -0.6336735, -0.06202702, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 25}
             - __class: Joint
               name: !<str> mixamorig:Spine2_03
-              guid: {a: 12700511424553584976, b: 5159825150646510721}
+              guid: {a: 17746447046763162636, b: 10556709314603136665}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -0, 0, -0, 0.9939222, 0.1100843, 0, 0, -0.1100843, 0.9939222, 0, 0.0002654096, -0.7355072, -0.06202702, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 26}
             - __class: Joint
               name: !<str> mixamorig:Neck_04
-              guid: {a: 16017915882365687336, b: 9039949047700312195}
+              guid: {a: 17964257731218159810, b: 1840163646606859410}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, 0.0002654096, -0.8517317, 0.03192928, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 27}
             - __class: Joint
               name: !<str> mixamorig:Head_05
-              guid: {a: 6071290693427919711, b: 15913976230938789042}
+              guid: {a: 12413956476366511068, b: 651397530619491986}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, 0.0002654096, -0.8787113, 0.02628779, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 28}
             - __class: Joint
               name: !<str> mixamorig:LeftShoulder_07
-              guid: {a: 6433560979904419308, b: 9602842899211740295}
+              guid: {a: 13136538471476535143, b: 11383933676661295254}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.02199072, 0.9804257, -0.1956574, 0, -0.1108635, -0.1968891, -0.9741375, 0, -0.9935923, 0.0002692628, 0.1130231, 0, 0.06260251, 0.093656, 0.8324443, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 30}
             - __class: Joint
               name: !<str> mixamorig:LeftArm_08
-              guid: {a: 13565201673159063021, b: 12890638672864306349}
+              guid: {a: 6939293328610763201, b: 11733680767864482710}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.07276652, 0.9939297, -0.08251504, 0, -0.1005118, -0.08962134, -0.9908912, 0, -0.9922714, -0.06380998, 0.1064231, 0, 0.06535897, -0.1463744, 0.8210908, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 31}
             - __class: Joint
               name: !<str> mixamorig:LeftForeArm_09
-              guid: {a: 9964542067411898727, b: 6028084275818047622}
+              guid: {a: 3552200504318733162, b: 5181554158981612478}
               invBindPosMatrix: {__class: Matrix4x4f, values: [0.04464893, 0.9988475, -0.01761046, 0, -0.1103557, -0.01258874, -0.9938124, 0, -0.9928887, 0.04631608, 0.1096664, 0, 0.02982735, -0.3565793, 0.799599, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 32}
             - __class: Joint
               name: !<str> mixamorig:LeftHand_010
-              guid: {a: 2324489978171149797, b: 9625512668810331040}
+              guid: {a: 17098240708838963070, b: 14615554405199383215}
               invBindPosMatrix: {__class: Matrix4x4f, values: [0.04464893, 0.9988475, -0.01761046, 0, -0.1103557, -0.01258874, -0.9938124, 0, -0.9928887, 0.04631608, 0.1096664, 0, 0.02982735, -0.5013697, 0.799599, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 33}
             - __class: Joint
               name: !<str> mixamorig:RightShoulder_011
-              guid: {a: 7585452856956858048, b: 67892373225818278}
+              guid: {a: 7444227367970755892, b: 14048640501890052024}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.02253624, -0.9804257, 0.1955953, 0, 0.1108625, -0.1968891, -0.9741377, 0, 0.9935802, -0.0002692131, 0.1131296, 0, -0.06261386, 0.09311835, 0.8325516, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 34}
             - __class: Joint
               name: !<str> mixamorig:RightArm_012
-              guid: {a: 17892312911888014828, b: 3792015877942527422}
+              guid: {a: 12992513929347165219, b: 12686259817072669370}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.0647248, -0.9944187, 0.08331905, 0, 0.1022832, -0.08966539, -0.990706, 0, 0.9926474, -0.0556011, 0.1075159, 0, -0.06493893, -0.1467184, 0.8212085, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 35}
             - __class: Joint
               name: !<str> mixamorig:RightForeArm_013
-              guid: {a: 1243460841460081816, b: 8722195785552159390}
+              guid: {a: 17676397837876420336, b: 8943269151030273673}
               invBindPosMatrix: {__class: Matrix4x4f, values: [0.02178969, -0.9996489, 0.01507635, 0, 0.1096765, -0.0125988, -0.9938875, 0, 0.9937285, 0.02331002, 0.1093634, 0, -0.03879877, -0.35838, 0.7985954, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 36}
             - __class: Joint
               name: !<str> mixamorig:RightHand_014
-              guid: {a: 10178904490949102660, b: 12456872235906134457}
+              guid: {a: 11404672877416036582, b: 18354715077083758748}
               invBindPosMatrix: {__class: Matrix4x4f, values: [0.02178969, -0.9996489, 0.01507635, 0, 0.1096765, -0.0125988, -0.9938875, 0, 0.9937285, 0.02331002, 0.1093634, 0, -0.03879877, -0.5030544, 0.7985954, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 37}
             - __class: Joint
               name: !<str> mixamorig:LeftUpLeg_015
-              guid: {a: 6071444849330645679, b: 13047308001410225822}
+              guid: {a: 12197086950776797941, b: 8103771154416257193}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.993231, 0.1161559, 1e-15, 0, -0.1152688, -0.9856456, -0.1233526, 0, -0.01432813, -0.1225176, 0.9923629, 0, 0.1406125, 0.4109771, 0.06957006, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 38}
             - __class: Joint
               name: !<str> mixamorig:LeftLeg_016
-              guid: {a: 14576949607009686271, b: 1795105447527937441}
+              guid: {a: 7227957006198239602, b: 3092531470872688267}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9995542, -0.02924057, 0.00602833, 0, 0.0296275, -0.9963966, 0.07947357, 0, 0.003682755, 0.07961674, 0.9968187, 0, 0.0999546, 0.2944165, 0.0103353, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 39}
             - __class: Joint
               name: !<str> mixamorig:LeftFoot_017
-              guid: {a: 5280256340707635979, b: 11280651083650639012}
+              guid: {a: 14865548493404658167, b: 12902526332836795039}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9965095, 0.02512469, 0.0796092, 0, 0.035289, -0.7374564, 0.6744722, 0, 0.07565422, 0.6749272, 0.7339957, 0, 0.10044, 0.1494132, -0.1128938, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 40}
             - __class: Joint
               name: !<str> mixamorig:LeftToeBase_018
-              guid: {a: 8017958751263479575, b: 8836152869821948839}
+              guid: {a: 8161720726108591420, b: 12396302377582032054}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9989226, 0.04588549, 0.006944631, 0, 0.007831307, 0.01917225, 0.9997855, 0, 0.04574251, 0.9987627, -0.01951094, 0, 0.1049479, -0.1363125, -0.009743653, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 41}
             - __class: Joint
               name: !<str> mixamorig:RightUpLeg_020
-              guid: {a: 12271200753125750304, b: 17051179645656570272}
+              guid: {a: 4198774085842071100, b: 8792871246125962118}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9932809, -0.1157282, 1e-15, 0, 0.1144157, -0.9820161, -0.1501782, 0, 0.01737985, -0.1491692, 0.988659, 0, -0.1407989, 0.4095697, 0.07693578, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 43}
             - __class: Joint
               name: !<str> mixamorig:RightLeg_021
-              guid: {a: 2251972792535993317, b: 9871192330479367322}
+              guid: {a: 7873451764092789517, b: 10966592023595415481}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9995404, 0.02908575, -0.008536337, 0, -0.02996876, -0.9905025, 0.1341887, 0, -0.004552283, 0.1343829, 0.990919, 0, -0.1004133, 0.294539, -0.006263062, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 44}
             - __class: Joint
               name: !<str> mixamorig:RightFoot_022
-              guid: {a: 18248970437257872316, b: 738607068199413683}
+              guid: {a: 4127667807341988209, b: 7758967163387743655}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9955124, -0.02562014, -0.0910975, 0, -0.04081605, -0.7522593, 0.6576018, 0, -0.08537678, 0.6583689, 0.7478377, 0, -0.09956761, 0.1475348, -0.1153829, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 45}
             - __class: Joint
               name: !<str> mixamorig:RightToeBase_023
-              guid: {a: 16954078739529955481, b: 16271582607979565977}
+              guid: {a: 13929165792634511597, b: 10396280044988318092}
               invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9989215, -0.04612413, -0.005338511, 0, -0.006246539, 0.01956495, 0.9997891, 0, -0.04600995, 0.9987441, -0.01983197, 0, -0.1054861, -0.1357151, -0.009585859, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
               jointTransform: {localId: 46}
