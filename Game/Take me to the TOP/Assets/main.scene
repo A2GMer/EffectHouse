@@ -1644,7 +1644,7 @@ entities:
     name: !<str> Confetti
     guid: {a: 667780509469627277, b: 13201942908774698144}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 84}
       - __class: ImageRenderer
@@ -1742,7 +1742,7 @@ config:
   __class: Map
 msaa:
   __class: MSAAMode
-  value: _4X
+  value: NONE
 jsScriptSystems:
   - !<str> js/GraphSystem.js
   - !<str> js/Main.js
@@ -2384,7 +2384,7 @@ name: !<str> ""
 guid: {a: 10685093061690293615, b: 2052367559793919639}
 enabled: true
 localPosition: {x: 20, y: 2.561, z: 0}
-localScale: {x: 0.5, y: 0.001, z: 1}
+localScale: {x: 0.2, y: 0.001, z: 0.5}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 9}
 mobility:
