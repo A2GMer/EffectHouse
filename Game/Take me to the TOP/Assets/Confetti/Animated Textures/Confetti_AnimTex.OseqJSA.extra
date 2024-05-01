@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "4ba8c56f-0096-f051-0797-be3e4f14947b",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "Confetti_AnimTex",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7287879406327021569",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7287879406327021569/Animated Textures/Confetti_AnimTex.OseqJSA"
+  }
+]

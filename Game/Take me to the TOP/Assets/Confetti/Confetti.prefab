@@ -1,0 +1,52 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> ""
+guid: {a: 10755191293760323631, b: 5313628511643478434}
+entities:
+  - __class: Entity
+    name: !<str> Confetti
+    guid: {a: 11045697498750224766, b: 6237210490426827149}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 10542254150203652997, b: 2660076185681440900}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !ScreenTransform &2
+name: !<str> ""
+guid: {a: 13853118673746801959, b: 11720938600846608809}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
