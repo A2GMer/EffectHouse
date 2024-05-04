@@ -1,0 +1,42 @@
+{
+	"name": "Effect Resolution Info",
+	"id": "6567e89c-ed56-49ab-ae9c-076c89733ef3",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Width",
+			"type": "Double",
+			"description": "The width of the Camera live video",
+			"displayType": "Number",
+			"nameKey": "graph_effect_resolution_info_output_width",
+			"descriptionKey": "graph_effect_resolution_info_output_width_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Height",
+			"type": "Double",
+			"description": "The height of the Camera live video",
+			"displayType": "Number",
+			"nameKey": "graph_effect_resolution_info_output_height",
+			"descriptionKey": "graph_effect_resolution_info_output_height_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"nodeEvent": [
+		"beforeStart",
+		"onUpdate"
+	],
+	"category": "Utility",
+	"js": "CGEffectResolutionInfo.js",
+	"version": "1.0.1",
+	"description": "Get both width and height of the camera live video resolution in mobile end based on the rating of viewers' devices specifications. The aspect ratio is always 9 x16.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"onlineWebsite": "graph_effect_resolution_info_website",
+	"nameKey": "graph_effect_resolution_info_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_effect_resolution_info_description"
+}

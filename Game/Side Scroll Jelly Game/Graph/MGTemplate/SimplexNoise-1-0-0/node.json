@@ -1,0 +1,32 @@
+{
+  "id": "9F570E10-8B94-D1CA-5FBE-094CB4C652B1",
+  "name": "Simplex Noise",
+  "category": "Noise",
+  "customFunction": true,
+  "inputs": [
+    {
+      "name": "Coordinate",
+      "type": "vec2",
+      "description": "2D position to sample noise. UV coordinates are usually used as an input."
+    },
+    {
+      "name": "Scale",
+      "type": "vec2",
+      "description": "Noise scale to control the sample range. It multiplies the coordinate.",
+      "defaultValue": "3.0, 3.0"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Noise",
+      "type": "float",
+      "description": "Simplex noise value."
+    }
+  ],
+  "mainFunctionName": "SimplexNoise",
+  "description": "Generate simplex noise.",
+  "productTypes": ["EHO", "EHD", "EHI"],
+  "version": "1.0.0",
+  "TTEHVer": "1.2.0",
+  "shaderFunctionPath": "SimplexNoise.matfunc"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "64925340-4709-4fdb-657e-ad959ef6aafb",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "ObstacleA_BaseColor",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": false
+  }
+]

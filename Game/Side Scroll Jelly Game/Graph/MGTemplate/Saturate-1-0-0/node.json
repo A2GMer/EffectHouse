@@ -1,0 +1,34 @@
+{
+	"id": "078032b2-82a3-1d52-a834-dd0e9a9433d1",
+	"name": "Saturate",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "Value",
+			"description": "Input value.",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "Value constrained to the range 0 and 1.",
+			"type": "Vector3f"
+		}
+	],
+	"description": "Constrain the value to lie between 0 and 1.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

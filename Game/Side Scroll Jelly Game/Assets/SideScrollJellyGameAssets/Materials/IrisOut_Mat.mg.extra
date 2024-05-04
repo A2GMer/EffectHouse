@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "f45991e3-6552-7336-f116-0ab4e634121b",
+      "b": ""
+    },
+    "extraType": "ResItemGraphMaterial",
+    "name": "IrisOut_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.4.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5209491466794689154, 16538746065708511400)",
+    "references": []
+  }
+]

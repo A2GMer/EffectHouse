@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "c2d0cf4c-dcea-58d0-5e29-8890a31e9f04",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Confetti_TexSequence",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7287879406327021569",
+    "resourceFilePath": "/Users/tanakahiroto/Library/Application Support/EffectHouse/package/7287879406327021569/Textures/Confetti_TexSequence.otextureseq",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

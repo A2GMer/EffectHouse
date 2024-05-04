@@ -1,0 +1,70 @@
+{
+	"id": "b730d0b0-9401-d400-b868-78e2c7f13b28",
+	"name": "If",
+	"category": "Logic",
+	"inputs": [
+		{
+			"name": "A",
+			"description": "Input value A",
+			"type": "Number"
+		},
+		{
+			"name": "B",
+			"description": "Input value B",
+			"type": "Number"
+		},
+		{
+			"name": "A > B",
+			"description": "Return this value if A is greater than B.",
+			"type": "Number"
+		},
+		{
+			"name": "A = B",
+			"description": "Return this value if A is equal to B.",
+			"type": "Number"
+		},
+		{
+			"name": "A < B",
+			"description": "Return this value if A is less than B.",
+			"type": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Value",
+			"description": "Return value.",
+			"type": "Number"
+		}
+	],
+	"description": "If expression. Return a given value depending on which one is greater between value A and B. For vectors, it's element-wise comparison.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType",
+				"genType",
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"Number",
+				"genType",
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

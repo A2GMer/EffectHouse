@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "5de4d765-2e8b-7968-457d-7f74eac53ff1",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "1-1(dumbbell-frypan)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/1-1(dumbbell-frypan).png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

@@ -1,0 +1,25 @@
+vec2 randomVec2(vec2 coord, float offset) {
+  coord = fract(cos(vec2(dot(coord, vec2(153.3, 267.9)), dot(coord, vec2(317.8, 171.3)))) * 56321.1091);
+  return vec2(cos(coord.x * 6.2831 + offset) * 0.5 + 0.5, sin(coord.y * 6.2831 + offset) * 0.5 + 0.5);
+}
+
+void VoronoiNoise(vec2 coord, vec2 scale, float offset, out float noise, out float cell) {
+  coord = coord * scale;
+  vec2 grid = floor(coord);
+  vec2 coordInGrid = fract(coord);
+
+  noise = 8.0;
+
+  for (int x = -1; x <= 1; ++x) {
+    for (int y = -1; y <= 1; ++y) {
+      vec2 neighbor = vec2(float(x), float(y));
+      vec2 point = randomVec2(grid + neighbor, offset);
+      float d = distance(neighbor + point, coordInGrid);
+
+      if (noise > d) {
+        noise = d;
+        cell = point.y;
+      }
+    }
+  }
+}

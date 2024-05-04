@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "d5cabc87-b1e7-fa49-85a0-327c9ea2a6cd",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "3DFaceBinding_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.5.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(8812345832884652018, 2121972798414944674)",
+    "references": [
+      {
+        "propertyName": "_BaseTexture",
+        "guid": "0ea19240-a076-c560-b543-062b694f4e00"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-00000000010b"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+	"id": "4c0a6ccc-77d6-7e3c-dbce-414f6f6cedca",
+	"name": "Pow",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "Base",
+			"description": "Base value",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Exponent",
+			"description": "Exponent value",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "Base raised to the power of exponent",
+			"type": "Vector3f"
+		}
+	],
+	"description": "Calculate base rasied to the power of exponent.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

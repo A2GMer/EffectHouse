@@ -1,0 +1,42 @@
+{
+  "id": "F364552A-0D63-B78C-F9D3-718A97FF6937",
+  "name": "Voronoi Noise",
+  "category": "Noise",
+  "customFunction": true,
+  "inputs": [
+    {
+      "name": "Coordinate",
+      "type": "vec2",
+      "description": "2D position to sample noise. UV coordinates are usually used as an input."
+    },
+    {
+      "name": "Scale",
+      "type": "vec2",
+      "description": "Noise scale to control the sample range. It multiplies the coordinate.",
+      "defaultValue": "3.0, 3.0"
+    },
+    {
+      "name": "Offset",
+      "type": "float",
+      "description": "Cell position offset."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Noise",
+      "type": "float",
+      "description": "Voronoi noise value."
+    },
+    {
+      "name": "Cell",
+      "type": "float",
+      "description": "The closest cell."
+    }
+  ],
+  "mainFunctionName": "VoronoiNoise",
+  "description": "Generate voronoi noise.",
+  "productTypes": ["EHO", "EHD", "EHI"],
+  "version": "1.0.0",
+  "TTEHVer": "1.2.0",
+  "shaderFunctionPath": "VoronoiNoise.matfunc"
+}

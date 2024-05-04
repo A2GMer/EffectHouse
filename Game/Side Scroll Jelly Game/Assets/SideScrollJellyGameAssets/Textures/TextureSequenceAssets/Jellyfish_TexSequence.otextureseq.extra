@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "e1bcb705-4f2b-fd6f-dc31-c9b2736dd24a",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Jellyfish_TexSequence",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

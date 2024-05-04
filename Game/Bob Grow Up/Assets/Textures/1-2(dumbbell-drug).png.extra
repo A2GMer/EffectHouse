@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "fb702c9b-13fc-e192-1154-e6f5173f45fe",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "1-2(dumbbell-drug)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/1-2(dumbbell-drug).png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

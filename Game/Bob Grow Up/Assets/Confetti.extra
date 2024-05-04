@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "8456f122-c2f7-957b-b188-cb48179c0ace",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Confetti",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

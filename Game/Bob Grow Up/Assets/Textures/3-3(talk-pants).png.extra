@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "31126a85-3941-2467-3fa3-1fbee1399fa7",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "3-3(talk-pants)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/3-3(talk-pants).png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

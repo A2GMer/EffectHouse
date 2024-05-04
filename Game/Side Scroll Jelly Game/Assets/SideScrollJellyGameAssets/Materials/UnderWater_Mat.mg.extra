@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "c5b2fcf7-40e8-094a-622c-5699497f9fa1",
+      "b": ""
+    },
+    "extraType": "ResItemGraphMaterial",
+    "name": "UnderWater_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.4.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(12413453220663664325, 6452112709302452661)",
+    "references": [
+      {
+        "propertyName": "_Custom_Sampler2D_4",
+        "guid": "00000000-0000-0000-0000-00000000004b"
+      }
+    ]
+  }
+]

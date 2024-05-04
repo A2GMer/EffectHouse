@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "18f3eb29-ddf8-df8f-c9d7-7c78c863098e",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "2-1(coke-cake)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/2-1(coke-cake).png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

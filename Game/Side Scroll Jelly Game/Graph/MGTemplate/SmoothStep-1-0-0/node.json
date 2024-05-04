@@ -1,0 +1,66 @@
+{
+	"id": "458b6ee4-0e1e-3b24-3357-eb3f628f8cee",
+	"name": "SmoothStep",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "Min",
+			"description": "Value of the lower end of the interpolation.",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Max",
+			"description": "Value of the upper end of the interpolation.",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Value",
+			"description": "Source value for interpolation.",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "Interpolation result on the source value.",
+			"type": "Vector3f"
+		}
+	],
+	"description": "Perform the smooth Hermite interpolation between 0 and 1.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"Number",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Vector4f",
+				"Vector4f",
+				"Color"
+			],
+			"out": [
+				"Color"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

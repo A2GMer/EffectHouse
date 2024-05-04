@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "9a49ff3b-0b6d-20e6-5c09-051af49ab27e",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Meshes",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

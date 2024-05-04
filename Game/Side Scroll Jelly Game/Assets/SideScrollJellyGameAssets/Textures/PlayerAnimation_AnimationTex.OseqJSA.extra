@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "c02dc3f6-eb77-269f-d7d1-df983d3888a2",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "PlayerAnimation_AnimationTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

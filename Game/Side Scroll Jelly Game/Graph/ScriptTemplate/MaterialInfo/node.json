@@ -1,0 +1,59 @@
+{
+	"name": "Material Info",
+	"id": "59359b62-dbe7-98c3-eb99-f43d283d0681",
+	"inputs": [
+		{
+			"name": "Material",
+			"description": "The Material to get properties from",
+			"type": "Material",
+			"displayType": "Material",
+			"nameKey": "graph_material_info_input_material",
+			"descriptionKey": "graph_material_info_input_material_description",
+			"displayTypeKey": "graph_type_material"
+		},
+		{
+			"name": "Uniform Name",
+			"description": "The name of the Uniform in the corresponding shader",
+			"default_value": "Main Tex",
+			"type": "String",
+			"displayType": "String",
+			"nameKey": "graph_material_info_input_uniformname",
+			"descriptionKey": "graph_material_info_input_uniformname_description",
+			"displayTypeKey": "graph_type_string"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Property Value",
+			"description": "The value of the specified Uniform property",
+			"dynamic": true,
+			"type": "Texture2D",
+			"displayType": "Texture 2D",
+			"nameKey": "graph_material_info_output_propertyvalue",
+			"descriptionKey": "graph_material_info_output_propertyvalue_description",
+			"displayTypeKey": "graph_type_texture2d"
+		}
+	],
+	"supportedValueTypes": [
+		"Texture2D",
+		"Double",
+		"Vector2f",
+		"Vector3f",
+		"Vector4f",
+		"Color",
+		"Matrix4x4f"
+	],
+	"category": "Utility",
+	"version": "1.0.0",
+	"description": "Captures the Uniform properties of the specified Material",
+	"onlineWebsite": "graph_material_info_website",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"js": "CGMaterialInfo.js",
+	"nameKey": "graph_material_info_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_material_info_description"
+}

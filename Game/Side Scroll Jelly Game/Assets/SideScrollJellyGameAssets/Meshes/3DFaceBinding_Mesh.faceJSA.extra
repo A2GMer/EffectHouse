@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "16aa5b49-aaba-47c0-4910-641b9e5604b1",
+      "b": ""
+    },
+    "extraType": "JSAssetHead3D",
+    "name": "3DFaceBinding_Mesh",
+    "expandInPanel": false,
+    "fillEyes": true,
+    "fillMouth": true,
+    "faceIndex": 0,
+    "faceTexture": "62aa7a11-1eab-e893-97a3-0e16f2b78acd",
+    "objGuid": "",
+    "rttiType": "Mesh",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Applications/Effect House.app/Contents/Resources/BuiltinResource/InternalPlugins/Head3D/PluginResource/builtinJSAssets/Face.faceJSA"
+  }
+]

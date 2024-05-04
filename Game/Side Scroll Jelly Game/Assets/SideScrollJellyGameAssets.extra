@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "b65a3342-67cd-3e6b-a448-d0f20f2a899f",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "SideScrollJellyGameAssets",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

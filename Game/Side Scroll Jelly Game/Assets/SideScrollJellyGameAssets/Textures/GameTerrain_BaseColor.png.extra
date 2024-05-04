@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "b7ad2572-7d2d-3f2c-08b4-90952322b674",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "GameTerrain_BaseColor",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

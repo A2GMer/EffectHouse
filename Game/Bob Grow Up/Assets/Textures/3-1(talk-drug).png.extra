@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "20985a4e-915b-5d7e-6b44-9b2cc55dfd8b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "3-1(talk-drug)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "resourceFilePath": "/Users/tanakahiroto/Desktop/3-1(talk-drug).png",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

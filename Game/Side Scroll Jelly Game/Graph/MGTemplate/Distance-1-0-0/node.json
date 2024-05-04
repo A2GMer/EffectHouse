@@ -1,0 +1,40 @@
+{
+	"id": "d37cb3c9-07fa-3568-31c0-84472f666d7c",
+	"name": "Distance",
+	"category": "Vector Operations",
+	"inputs": [
+		{
+			"name": "Point A",
+			"description": "Point A",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Point B",
+			"description": "Point B",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Distance",
+			"description": "Distance between two points",
+			"type": "Number"
+		}
+	],
+	"description": "Calculate the distance between two points.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType"
+			],
+			"out": [
+				"Number"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

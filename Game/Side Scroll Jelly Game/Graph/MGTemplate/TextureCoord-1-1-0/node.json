@@ -1,0 +1,23 @@
+{
+	"id": "9c94055c-7406-9431-8a9f-0967040005de",
+	"name": "Texture Coord",
+	"category": "Coordinates",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "UV0",
+			"description": "UV coordinate.",
+			"type": "Vector2f"
+		},
+		{
+			"name": "UV1",
+			"description": "UV coordinate.",
+			"type": "Vector2f"
+		}
+	],
+	"description": "UV coordinates.",
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.1.0"
+}
